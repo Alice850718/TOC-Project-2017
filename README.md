@@ -29,9 +29,9 @@
 
 *	將Forwarding中獲取到的URL放入app.py中的WEBHOOK_URL與pygraphviz中的URL
 
-`WEBHOOK_URL = 'URL/hook'
+`WEBHOOK_URL = 'URL/hook'`
 
-pygraphviz = 'URL/show-fsm'`
+`pygraphviz = 'URL/show-fsm'`
 
 *	執行程式
 
