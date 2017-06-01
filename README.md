@@ -4,6 +4,9 @@
 
 ## 機器人名稱：星座每日運勢
 
+## 機器人狀態圖
+![image](https://github.com/Alice850718/TOC-Project-2017/blob/master/show-fsm.png)
+
 ## 基本功能：
 
 1. 	How to interact with your chatbot?
