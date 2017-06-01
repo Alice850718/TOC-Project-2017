@@ -13,18 +13,18 @@
 			
 
 2. How to run you code?
-*	需安裝python-telegram-bot
-		pip install python-telegram-bot
-*	需安裝BeautifulSoup
-		pip install beautifulsoup4
-*	需安裝ngork並架設server，到官方網站下載ngrok並直接執行
-		./ngrok http 5000
-	將Forwarding中獲取到的URL放入app.py中的WEBHOOK_URL = 'URL/hook'與pygraphviz = 'URL/show-fsm'參數中
+*	需安裝*python-telegram-bot*
+	pip install python-telegram-bot
+*	需安裝*BeautifulSoup*
+	pip install beautifulsoup4
+*	需安裝*ngork*並架設server，到官方網站下載ngrok並直接執行
+	./ngrok http 5000
+	將Forwarding中獲取到的URL放入app.py中的*WEBHOOK_URL* = '*URL*/hook'與*pygraphviz* = '*URL*/show-fsm'參數中
 *	執行程式
-		python3 app.py
+	python3 app.py
 
 ## 進階功能：
-*	使用BeautifulSoup抓取網頁內容
-*	使用reply_photo, reply_audio以及telegram.ReplyKeyboardMarkup()等function
-*	使用random回覆使用者不正確的輸出，並加入顏文字、特殊符號、鬼故事、笑話以及有趣的圖片為元素，增添樂趣
-*	以全域變數記錄使用者設定的星座，以及flag判斷是否已設定星座，若無則強迫設定星座，亦可查詢他人星座
+*	使用*BeautifulSoup*抓取網頁內容
+*	使用*reply_photo*, *reply_audio*以及*telegram.ReplyKeyboardMarkup*()等function
+*	使用random回覆使用者不正確的輸出，並加入*顏文字*、*特殊符號*、*鬼故事*、*笑話*以及有趣的*圖片*為元素，增添樂趣
+*	以全域變數*記錄使用者設定的星座*，以及flag判斷是否已設定星座，若無則強迫設定星座，亦可查詢他人星座
