@@ -12,20 +12,31 @@
 *	help：幫助使用者了解其他指令
 *	setup：設定自己的星座以便查詢，若尚未設定，則強制設定
 *	search：查詢自己星座或其他星座運勢，使用者可以*按鈕*，*打字*或*數字*回答
-			
+
 
 2.	How to run you code?
 *	需安裝*python-telegram-bot*
+
 `pip install python-telegram-bot`
+
 *	需安裝*BeautifulSoup*
+
 `pip install beautifulsoup4`
+
 *	需安裝*ngork*並架設server，到官方網站下載ngrok並直接執行
+
 `./ngrok http 5000`
+
 *	將Forwarding中獲取到的URL放入app.py中的WEBHOOK_URL與pygraphviz中的URL
+
 `WEBHOOK_URL = 'URL/hook'
+
 pygraphviz = 'URL/show-fsm'`
+
 *	執行程式
+
 `python3 app.py`
+
 
 ## 進階功能：
 
